@@ -28,7 +28,7 @@ export default function App() {
           title= "Click new image"
           onPress={()=>{
             setImage(null)
-          }}>
+          }}> 
         </Button>
         </View> 
       ) : (
